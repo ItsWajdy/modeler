@@ -43,6 +43,7 @@ sfm.find_structure_from_motion()
 ## Example
 ```
 from modeler import SfM
+
 sfm = SfM('results/', False, 'videos/vid1.mp4', 27)
 sfm.structure_from_motion()
 ```
