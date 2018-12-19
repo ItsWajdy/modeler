@@ -10,7 +10,7 @@ pip install numpy
 pip install opencv-python
 ```
 
-## Installing
+## Installation
 To install modeler simply run this command from the command line:
 ```
 pip install modeler
