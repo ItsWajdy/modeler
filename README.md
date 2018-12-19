@@ -35,7 +35,7 @@ Where:
 - `video_path`: in case video_already_converted is False, the module uses the video in 'video_path' as input
 - `video_sampling_rate`: the frequency at which the module extracts images from the video to use in the actual reconstruction
 
-- To actually run the algorithm and get the 3D model you'd use
+To actually run the algorithm and get the 3D model you'd use
 ```
 sfm.find_structure_from_motion()
 ```
@@ -48,3 +48,6 @@ sfm = SfM('results/', False, 'videos/vid1.mp4', 27)
 sfm.structure_from_motion()
 ```
 When the progrm terminates you'll get a set of .ply files in the folder named results
+
+## References
+This project was heavily inspired by this article https://www.researchgate.net/publication/265190880_3D_reconstruction_from_multiple_images
